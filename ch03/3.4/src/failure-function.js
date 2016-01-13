@@ -8,7 +8,7 @@ function failureFunction(str) {
             j = failure[j-1]
         }
         if(str[j] == str[i]){
-            j++
+           failure[i] = j++
         }
         failure[i] = j
     }
